@@ -2,7 +2,9 @@ import translate from './translate';
 
 describe('Translate Util', () => {
   it('should check if input txt is null / undefined', () => {
+    // @ts-ignore
     expect(translate(null, {})).toBe(null);
+    // @ts-ignore
     expect(translate(undefined, {})).toBe(null);
   });
   it('should check if data is null / undefined', () => {
@@ -10,7 +12,6 @@ describe('Translate Util', () => {
     expect(translate(txt, null)).toBe(txt);
     expect(translate(txt, undefined)).toBe(txt);
     expect(translate(txt, {})).toBe(txt);
-    // eslint-disable-next-line @typescript-eslint/no-empty-function
     expect(translate(txt, () => {})).toBe(txt);
   });
   it('should parse and return modified txt', () => {

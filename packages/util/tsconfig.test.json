@@ -1,0 +1,8 @@
+{
+  "extends": "tsconfig/util.json",
+  "compilerOptions": {
+    "strict": false
+  },
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}

@@ -1,4 +1,4 @@
-import translate from './translate';
+import { translate } from '.';
 
 describe('Translate Util', () => {
   it('should check if input txt is null / undefined', () => {

@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/util.json",
+  "extends": "tsconfig/tonic-utils.json",
   "include": ["src"],
   "exclude": ["dist", "build", "node_modules"]
 }

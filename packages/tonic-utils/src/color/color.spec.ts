@@ -1,4 +1,4 @@
-import { color } from '.';
+import color from '.';
 
 describe('Color Util', () => {
   it('should check if color is null / undefined', () => {

@@ -1,5 +1,5 @@
-export { translate } from './src/translate';
-export { color } from './src/color';
+export { default as translate } from './src/translate';
+export { default as color } from './src/color';
 
 export * from './src/date';
 

@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const translate = (txt: string, obj: any): string | null => {
+const translate = (txt: string, obj: any): string | null => {
   if (!txt) return null;
   if (!obj) return txt;
 
@@ -11,3 +10,5 @@ export const translate = (txt: string, obj: any): string | null => {
     return acc;
   }, txt);
 };
+
+export default translate;

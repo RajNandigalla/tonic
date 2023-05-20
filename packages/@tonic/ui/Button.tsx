@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { ISO_FORMAT, Logger, debug, getFormattedDate, translate } from '@tonic/util';
+import { ISO_FORMAT, Logger, debug, getFormattedDate, translate } from '../utils';
 
 export const Button = () => {
   const res: string | null = translate('ok', {});
